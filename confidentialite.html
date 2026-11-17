@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Règles de confidentialité – Mag'Family</title>
+<style>
+  body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; background: #f6efe6; color: #3b2f2a; line-height: 1.6; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 24px; }
+  h1 { font-family: Georgia, serif; font-weight: 600; font-size: 2rem; margin: 0 0 4px; color: #b5573a; }
+  h2 { font-family: Georgia, serif; font-weight: 600; font-size: 1.3rem; margin-top: 32px; }
+  p.sub { margin-top: 0; color: #7a6a60; }
+  ul { padding-left: 1.2rem; }
+  a { color: #b5573a; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Règles de confidentialité</h1>
+  <p class="sub">Mag'Family · dernière mise à jour : 17 novembre 2026</p>
+
+  <p>Mag'Family est une application privée utilisée par les membres d'un même foyer. Cette page explique quelles données elle utilise et pourquoi.</p>
+
+  <h2>Données utilisées</h2>
+  <ul>
+    <li><strong>Compte Google</strong> : la connexion se fait avec Google. L'application reçoit votre identifiant de compte, votre nom et votre adresse e-mail, uniquement pour vous identifier dans votre foyer.</li>
+    <li><strong>Contenu du foyer</strong> : liste de courses, messages, nom affiché et couleur, niveau de batterie des téléphones. Ces données ne sont visibles que par les membres du même foyer.</li>
+    <li><strong>Google Agenda (facultatif)</strong> : si vous connectez votre agenda, l'application lit en <em>lecture seule</em> (autorisation <code>calendar.readonly</code>) les rendez-vous d'aujourd'hui et de demain de votre agenda principal : titre, lieu, horaires. Les rendez-vous marqués « privé » dans Google sont affichés « Occupé », sans titre ni lieu. L'application ne crée, ne modifie et ne supprime jamais de rendez-vous.</li>
+    <li><strong>Consommation électrique</strong> : mesures des prises connectées de la maison (puissance, kWh).</li>
+  </ul>
+
+  <h2>Utilisation des données Google</h2>
+  <p>Les données reçues des API Google servent uniquement à afficher vos rendez-vous aux membres de votre foyer dans l'application. Elles ne sont ni vendues, ni partagées avec des tiers, ni utilisées pour de la publicité, ni utilisées pour entraîner des modèles d'intelligence artificielle. L'utilisation des informations reçues des API Google respecte les <a href="https://developers.google.com/terms/api-services-user-data-policy">règles relatives aux données utilisateur des services d'API Google</a>, y compris les exigences d'utilisation limitée.</p>
+
+  <h2>Stockage et sécurité</h2>
+  <ul>
+    <li>Les données sont hébergées chez Supabase, dans l'Union européenne (Irlande).</li>
+    <li>Chaque foyer est isolé : un membre ne peut lire que les données de son propre foyer.</li>
+    <li>Le jeton d'accès à Google Agenda est chiffré dans un coffre de secrets et n'est lisible que par le serveur de la maison qui synchronise les agendas.</li>
+    <li>Les rendez-vous sont effacés deux jours après leur fin ; les mesures détaillées des prises après sept jours.</li>
+  </ul>
+
+  <h2>Vos choix</h2>
+  <ul>
+    <li>Vous pouvez déconnecter votre agenda à tout moment dans l'application (page Agenda) : le jeton et vos rendez-vous sont alors supprimés. Vous pouvez aussi retirer l'accès depuis <a href="https://myaccount.google.com/permissions">votre compte Google</a>.</li>
+    <li>Pour quitter le foyer ou faire supprimer vos données, écrivez à l'adresse ci-dessous.</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:famille.magalhaes33@gmail.com">famille.magalhaes33@gmail.com</a></p>
+
+  <p><a href="index.html">← Retour à l'accueil</a></p>
+</main>
+</body>
+</html>
